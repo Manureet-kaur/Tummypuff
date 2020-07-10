@@ -1,0 +1,82 @@
+<!--==================Contact Page================-->
+<!DOCTYPE html>
+<html lang="en-CA">
+<head>
+<title>Contact us</title>
+	 <meta charset="UTF-8">
+	 <meta name="description" content="This page shows the content of all html tags">
+	 <meta name="author" content="Harpreet kaur">
+	 <!-- below for private pages only, remove line for public pages-->
+	 <meta name="robots" content="noindex, nofollow">
+	 <!-- for responsive website-->
+	 <meta name="viewport" content="width=device-width,initial-scale=1">
+	 <!--website icon(favicon)-->
+	 <link rel="icon" href="icons/main-icon.jpg" type="image/jpeg">
+	 <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body
+<!--=================================header======================================================-->
+<header>
+<div class="logo"><img src="C:/ISIcollege/HTML/final-project/icons/main-icon.jpg" alt="TummyPuff bakers" title="TummyPuff bakers" id="head-image">
+TUMMYPUFF <sup>BreadBakery</sup></div>
+</header>
+<div class="div1">
+<!--====================================nav=========================================================-->
+<nav class="topnav">
+			<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="#">PRODUCTS</a></li>
+					<li><a href="gallery.html">GALLERY</a></li>
+					<li><a href="#">COMPARE</a></li>
+					<li><a href="contact.html">CONTACT US</a></li>
+			</ul>
+</nav>
+</div>
+<div id="form">
+<form action="link.html" method="post">
+	  <h2>CONTACT FORM</h2>
+	  <fieldset>
+		   <legend>Contact Information</legend>
+        <input type="text" name="firstname" placeholder="name" maxlength="50" size="20" required>*
+       <br>
+         <input type="email" name="address" placeholder="Email" maxlength="127">*<br>
+          <input type="textarea" name="address" placeholder="Enter your address" rows="3" cols="30"maxlength="255" required ></textarea>*<br>
+					Phone<br>
+          <input type="number" name="phone" maxlength="20" required >*<br>
+					Message<br>
+          <input type="textarea" name="message" placeholder="Type your message here">*<br>
+					City<br>
+           <select name="city" required>
+					 <option value=""Selected>Select one</option>
+					  <option value="Montreal">Montreal</option>
+					  <option value="Toranto">Toranto</option>
+						<option value="windsor">Windsor</option>
+						<option value="vancuvar">Vancuvar</option>
+						<option value="winipeg">Winnipeg</option>
+					 </select><br>
+	   </fieldset>
+		 <fieldset>
+		  <legend>Prefered Language</legend>
+			   <input type="radio" name="pref-lang" value="en" checked>English <br>
+				 <input type="radio" name="pref-lang" value="fr"required>French <br>
+				 <input type="radio" name="pref-lang" value="en" required>other<input type="text" name="other" maxlength="20"><br>
+		 </fieldset>
+		 <fieldset>
+		  <legend>Login information</legend>
+			  <input type="email" name="address" placeholder="Email" maxlength="127">*<br>
+				<input type="password" name="password" placeholder="password-max 8 char" required maxlength="8" >*<br>
+				<input type="password" name="password2" placeholder="repeat password" required maxlength="8" required >*<br>
+		 </fieldset>
+		    <input type="checkbox" name="checkbox" value="checkbox" checked> I agree to receive info about new products<br>
+				<input type="checkbox" name="checkbox" value="checkbox" required> I agree to comply with the company rules<br>
+				
+				<!--submit button-->
+				<!--<input type="submit" name="button" value="submit"> -->
+				<button class="button">Submit</button>
+	</form>
+</div>
+ <div id="map">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2794.3027433709412!2d-73.64289478447677!3d45.54423507910207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc918de3d1b0c25%3A0x9ee187b2c1cc8989!2zQ3LDqW1hemll!5e0!3m2!1sen!2sca!4v1560969396832!5m2!1sen!2sca" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+ </div>
+</body>
+</html>
